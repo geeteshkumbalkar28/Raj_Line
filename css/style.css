@@ -1749,7 +1749,8 @@ margin-top: 20px;
 
 .title {
 	text-align:center;
-	padding-bottom: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 
 }
 
@@ -2157,8 +2158,8 @@ ul.lik li a:hover {
      background-color: #fe732f;
 }
 .brand_color .titlepage {
-     margin-top: 70px;
-padding-bottom: 70px;
+     margin-top: 25px;
+padding-bottom: 25px;
 text-align: center;
 }
 
@@ -2226,7 +2227,7 @@ text-align: center;
 
 /** Lastestnews **/
  .Lastestnews {
-     padding:90px 0px;
+     padding:50px 0px;
      background: #fff;
 }
 .Lastestnews .titlepage {
@@ -2270,7 +2271,7 @@ text-align: center;
 
 
 
-.about {padding-top: 90px;}
+.about {padding-top: 10px;}
 .about .about_box figure {margin: 0;}
 .about .about_box figure img {width: 100%;}
 .about .about_box h3 {color: #000; font-weight: bold; font-size: 30px; line-height: 35px;}
