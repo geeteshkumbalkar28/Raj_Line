@@ -85,7 +85,11 @@ h6 {
 	color: #111111;
 	margin: 0
 }
-
+.contactUsLink :hover{
+	color: rgb(254, 115, 47);;
+    font-size: 18px;
+    line-height: 28px;
+}
 h1 {
 	font-size: 24px
 }
@@ -2344,7 +2348,9 @@ text-align: center;
 	text-align: center;
 }
 
-
+.ourBrandsLogo{
+	margin: 13px 1px 17px 2px;
+}
 /** slider arrow **/
 
 #main_slider .carousel-control-prev,
