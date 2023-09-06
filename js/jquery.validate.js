@@ -423,6 +423,7 @@ $.extend( $.validator, {
 					settings[ eventType ].call( validator, this, event );
 				}
 			}
+			
 
 			$( this.currentForm )
 				.on( "focusin.validate focusout.validate keyup.validate",
@@ -439,6 +440,7 @@ $.extend( $.validator, {
 				$( this.currentForm ).on( "invalid-form.validate", this.settings.invalidHandler );
 			}
 		},
+		
 
 		// https://jqueryvalidation.org/Validator.form/
 		form: function() {
@@ -1598,4 +1600,6 @@ if ( $.ajaxPrefilter ) {
 	};
 }
 return $;
+
+
 }));

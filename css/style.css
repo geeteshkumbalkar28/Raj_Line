@@ -1940,7 +1940,7 @@ margin-top: 20px;
 	padding-bottom: 60px;
 }
  .product-bg .product-bg-white .product-box {
- 	background: #ddd;
+ 	
  	text-align: center;
  	margin-bottom: 30px;
  	padding: 20px 25px;
@@ -2383,4 +2383,36 @@ text-align: center;
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+/* Style the dropdown menu when hovering over "Product" */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Prevent text wrapping in the dropdown toggle button */
+.nav-link.dropdown-toggle {
+    white-space: nowrap;
+}
+
+/* Style the dropdown items */
+.dropdown-menu {
+    background-color: #000000; /* Background color for the dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add a shadow */
+    border: 1px solid #ccc; /* Add a border */
+    z-index: 1; /* Set a higher z-index to make it appear above other content */
+    min-width: 0; /* Set a minimum width for the dropdown */
+}
+
+/* Style the dropdown items with smaller padding */
+.dropdown-menu a {
+    color: #5f0303; /* Text color */
+    padding: 8px 16px; /* Smaller padding for the items */
+    text-decoration: none; /* Remove underlines */
+    display: block; /* Display as block elements */
+}
+
+/* Change the background color of dropdown items on hover */
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
 }
