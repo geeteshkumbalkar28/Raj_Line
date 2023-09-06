@@ -1935,27 +1935,27 @@ margin-top: 20px;
 }
 .product-bg-white {
 	background: #ffffffbd;
-	box-shadow: #00000040 0px 0px 25px 0px;
+	box-shadow: #f5f3f302 0px 0px 25px 0px;
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
  .product-bg .product-bg-white .product-box {
- 	background: #ddd;
+ 	background: #dddddd09;
  	text-align: center;
- 	margin-bottom: 30px;
- 	padding: 20px 25px;
+ 	margin-bottom: 3px;
+ 	padding: 2px 2px;
 
  }
  .product-bg .product-bg-white .product-box i img {width: 100%;}
  .product-bg .product-bg-white .product-box:hover {
- 	background: #fdc24f;
+ 	background: #f5f5f505;
  }
 
  .product-bg .product-bg-white .product-box  h3 {
  	color: #020000;
  	font-weight: 500;
  	font-size: 17px;
- 	line-height: 20px;
+ 	line-height: 2px;
  	padding-top: 15px;
  }
 
