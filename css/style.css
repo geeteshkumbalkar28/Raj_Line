@@ -35,8 +35,26 @@
 @import url(nice-select.css);
 
 
+  .sub {
+	display:block;
+  }
+  li > a:hover ~ .sub {
+	display:block
+  }
+  .sub {
+	clear:both;
+	list-style:none;
+	margin:0px;
+	padding:0;
+  }
 
-
+/* .menu-bar ul li :hover .sub-menu-1 ul{
+	display: block;
+	position: absolute;
+	background: rgba(0, 100, 0, 0);
+	margin-top:15px;
+	margin-left:-15px;
+} */
 
 /*---------------------------------------------------------------------
     skeleton
