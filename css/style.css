@@ -135,9 +135,11 @@ h6 {
 *,
 *::after,
 *::before {
+
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+
 }
 
 h1 a,
@@ -1720,7 +1722,7 @@ font-size: 18px;
 }
 .header {
 	background: #fff;
-	padding-bottom: 35px;
+	padding-bottom: 20px;
 }
 
 .logo a {
@@ -1781,8 +1783,8 @@ margin-top: 20px;
 
 .title {
 	text-align:center;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 1px;
+	padding-top: 1px;
 
 }
 
@@ -1872,7 +1874,7 @@ margin-top: 40px;
 /** service section **/
 .service {
 	background: #fff;
-	padding-top: 90px;
+	padding-top: 20px;
 }
 .service .service-box {
 	padding: 30px 20px;
@@ -1911,7 +1913,7 @@ margin-top: 40px;
 /** product section **/
 .product {
 	background: #fff;
-	padding-top: 60px;
+	padding-top: 0px;
 
 }
 
